@@ -7,6 +7,8 @@ public class exe_008{
     int h = int.Parse(b[0]);
     int m = int.Parse(b[1]);
     int s = int.Parse(b[2]);
-    Console.WriteLine(h);
+    long distancia = (((h * 3600) + (m * 60) + s) * (long) 300000);
+    //long distancia = tempo * 300000;
+    Console.WriteLine($"{distancia}");
   }
 }

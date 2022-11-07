@@ -1,1 +1,1 @@
-run = "set -e;  csc './PraticaC/problema_1035.cs' /out:Main.exe; mono Main.exe"
+run = "set -e;  csc './Listas_POO/lista_04/problema_1017.cs' /out:Main.exe; mono Main.exe"
